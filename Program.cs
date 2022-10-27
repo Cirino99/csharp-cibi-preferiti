@@ -118,3 +118,28 @@
 //    somma += numeri[i];
 //}
 //Console.WriteLine("La somma è: " + somma);
+
+//snack9
+//int[] numeri = new int[50];
+//int somma = 0;
+//while (somma < 50)
+//{
+//    Console.WriteLine("Inserisci un numero");
+//    somma += Convert.ToInt32(Console.ReadLine());
+//}
+
+//snack10
+Console.WriteLine("Inserisci un numero");
+int N = Convert.ToInt32(Console.ReadLine());
+Random random = new Random();
+for (int i = 0; i < N; i++)
+{
+    int[] array = new int[10];
+    Console.WriteLine("L'array numero" + (i + 1) + "è: ");
+    for (int j = 0; j < 10; j++)
+    {
+        array[j] = random.Next(1, 100);
+        Console.Write(array[j] + "  ");
+    }
+    Console.WriteLine();
+}
