@@ -9,3 +9,9 @@ for (int i=0; i<cibiPreferitiLength; i++){
 }
 Console.WriteLine("Il mio cibo preferito è: " + cibiPreferiti[0]);
 Console.WriteLine("Il mio cibo meno preferito è: " + cibiPreferiti[cibiPreferitiLength - 1]);
+
+if (cibiPreferitiLength % 2 == 0){
+    Console.WriteLine("Il miei cibi di mezzo sono: " + cibiPreferiti[cibiPreferitiLength/2 - 1] + " e " + cibiPreferiti[cibiPreferitiLength/2]);
+} else{
+    Console.WriteLine("Il mio cibo di mezzo è: " + cibiPreferiti[(cibiPreferitiLength - 1)/2]);
+}
