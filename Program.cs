@@ -121,12 +121,16 @@
 
 //snack9
 //int[] numeri = new int[50];
+//int index = 0;
 //int somma = 0;
-//while (somma < 50)
+//while (somma < 50 && index < 50)
 //{
 //    Console.WriteLine("Inserisci un numero");
-//    somma += Convert.ToInt32(Console.ReadLine());
+//    numeri[index] = Convert.ToInt32(Console.ReadLine());
+//    somma += numeri[index];
+//    index++;
 //}
+//Console.WriteLine("La somma dei numeri inseriti è: " + somma);
 
 //snack10
 Console.WriteLine("Inserisci un numero");
