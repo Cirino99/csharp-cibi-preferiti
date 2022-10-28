@@ -133,17 +133,47 @@
 //Console.WriteLine("La somma dei numeri inseriti è: " + somma);
 
 //snack10
-Console.WriteLine("Inserisci un numero");
-int N = Convert.ToInt32(Console.ReadLine());
-Random random = new Random();
-for (int i = 0; i < N; i++)
+//Console.WriteLine("Inserisci un numero");
+//int N = Convert.ToInt32(Console.ReadLine());
+//Random random = new Random();
+//for (int i = 0; i < N; i++)
+//{
+//    int[] array = new int[10];
+//    Console.WriteLine("L'array numero" + (i + 1) + "è: ");
+//    for (int j = 0; j < 10; j++)
+//    {
+//        array[j] = random.Next(1, 100);
+//        Console.Write(array[j] + "  ");
+//    }
+//    Console.WriteLine();
+//}
+
+//esercizio 3
+//snack1
+//Console.WriteLine("Inserisci due parole");
+//string parola1 = Console.ReadLine();
+//string parola2 = Console.ReadLine();
+//string parolaLunga = confrontoLunghezza(parola1, parola2);
+//Console.WriteLine(parolaLunga);
+
+//string confrontoLunghezza(string parola1, string parola2)
+//{
+//    if (parola1.Length == parola2.Length)
+//        return parola1 + " " + parola2;
+//    else if (parola1.Length > parola2.Length)
+//        return parola1;
+//    else
+//        return parola2;
+//}
+
+//sanck2
+string pariDispari(int numero)
 {
-    int[] array = new int[10];
-    Console.WriteLine("L'array numero" + (i + 1) + "è: ");
-    for (int j = 0; j < 10; j++)
-    {
-        array[j] = random.Next(1, 100);
-        Console.Write(array[j] + "  ");
-    }
-    Console.WriteLine();
+    if (numero % 2 == 0)
+        return "pari";
+    return "dispari";
 }
+
+Console.WriteLine("Inserisci un numero");
+int numero = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Il numero che hai inserito è: " + pariDispari(numero));
