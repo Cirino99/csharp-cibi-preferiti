@@ -113,7 +113,7 @@
 //snack8
 //int[] numeri = {1,2,3,4,5,6};
 //int somma = 0;
-//for (int i=0; i<numeri.Length; i+=2)
+//for (int i=1; i<numeri.Length; i+=2)
 //{
 //    somma += numeri[i];
 //}
