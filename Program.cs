@@ -153,8 +153,7 @@
 //Console.WriteLine("Inserisci due parole");
 //string parola1 = Console.ReadLine();
 //string parola2 = Console.ReadLine();
-//string parolaLunga = confrontoLunghezza(parola1, parola2);
-//Console.WriteLine(parolaLunga);
+//Console.WriteLine(confrontoLunghezza(parola1, parola2));
 
 //string confrontoLunghezza(string parola1, string parola2)
 //{
